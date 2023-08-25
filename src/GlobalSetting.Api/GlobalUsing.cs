@@ -1,0 +1,9 @@
+global using Application;
+global using Common;
+global using Common.DependencyInjection;
+global using Domain;
+global using Infrastructure;
+global using Infrastructure.DependencyInjection;
+global using Persistence;
+global using Persistence.DependencyInjection;
+global using MSSql.DependencyInjection;

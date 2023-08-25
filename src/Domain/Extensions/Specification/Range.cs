@@ -1,0 +1,13 @@
+ namespace Domain.Extensions.Specification;
+
+
+public class Range<T>
+  where T : struct
+{
+  public T? From { get; set; }
+  public T? To { get; set; }
+
+  public Range<T> Between(T from, T to) => new() { From = from, To = to };
+
+  public static Range<T> With(T from, T to) => new() { From = from, To = to };
+}
