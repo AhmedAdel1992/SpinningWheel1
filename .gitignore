@@ -5,7 +5,7 @@ obj
 .idea
 .vs
 .vscode
-**.Development.json
+
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
